@@ -1,0 +1,13 @@
+{
+    "type": "module",
+    "scripts": {
+        "build": "tsc --build",
+        "start": "yarn build && node build/index.js"
+    },
+    "dependencies": {
+        "typescript": "^5.2.2"
+    },
+    "devDependencies": {
+        "@types/node": "^20.9.2"
+    }
+}
